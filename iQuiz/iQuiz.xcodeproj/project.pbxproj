@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013511A62187C9C900805E2C /* marvel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013511A32187C9C800805E2C /* marvel.jpg */; };
+		013511A72187C9C900805E2C /* science.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013511A42187C9C800805E2C /* science.jpg */; };
+		013511A82187C9C900805E2C /* math.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013511A52187C9C800805E2C /* math.jpg */; };
+		013511AA21884DC200805E2C /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013511A921884DC200805E2C /* QuizData.swift */; };
+		013511AC2188F21900805E2C /* QuizTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013511AB2188F21900805E2C /* QuizTableViewCell.swift */; };
 		01CDD38C21854213001B5F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CDD38B21854213001B5F81 /* AppDelegate.swift */; };
 		01CDD38E21854213001B5F81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CDD38D21854213001B5F81 /* ViewController.swift */; };
 		01CDD39121854213001B5F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CDD38F21854213001B5F81 /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013511A32187C9C800805E2C /* marvel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marvel.jpg; sourceTree = "<group>"; };
+		013511A42187C9C800805E2C /* science.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = science.jpg; sourceTree = "<group>"; };
+		013511A52187C9C800805E2C /* math.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = math.jpg; sourceTree = "<group>"; };
+		013511A921884DC200805E2C /* QuizData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
+		013511AB2188F21900805E2C /* QuizTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewCell.swift; sourceTree = "<group>"; };
 		01CDD38821854213001B5F81 /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01CDD38B21854213001B5F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01CDD38D21854213001B5F81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		013511A22187C9C800805E2C /* Cell Pics */ = {
+			isa = PBXGroup;
+			children = (
+				013511A32187C9C800805E2C /* marvel.jpg */,
+				013511A42187C9C800805E2C /* science.jpg */,
+				013511A52187C9C800805E2C /* math.jpg */,
+			);
+			path = "Cell Pics";
+			sourceTree = "<group>";
+		};
 		01CDD37F21854213001B5F81 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +101,7 @@
 				01CDD39F21854214001B5F81 /* iQuizTests */,
 				01CDD3AA21854214001B5F81 /* iQuizUITests */,
 				01CDD38921854213001B5F81 /* Products */,
+				013511A22187C9C800805E2C /* Cell Pics */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +120,9 @@
 			children = (
 				01CDD38B21854213001B5F81 /* AppDelegate.swift */,
 				01CDD38D21854213001B5F81 /* ViewController.swift */,
+				013511A921884DC200805E2C /* QuizData.swift */,
 				01CDD38F21854213001B5F81 /* Main.storyboard */,
+				013511AB2188F21900805E2C /* QuizTableViewCell.swift */,
 				01CDD39221854214001B5F81 /* Assets.xcassets */,
 				01CDD39421854214001B5F81 /* LaunchScreen.storyboard */,
 				01CDD39721854214001B5F81 /* Info.plist */,
@@ -229,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013511A62187C9C900805E2C /* marvel.jpg in Resources */,
+				013511A82187C9C900805E2C /* math.jpg in Resources */,
+				013511A72187C9C900805E2C /* science.jpg in Resources */,
 				01CDD39621854214001B5F81 /* LaunchScreen.storyboard in Resources */,
 				01CDD39321854214001B5F81 /* Assets.xcassets in Resources */,
 				01CDD39121854213001B5F81 /* Main.storyboard in Resources */,
@@ -257,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01CDD38E21854213001B5F81 /* ViewController.swift in Sources */,
+				013511AA21884DC200805E2C /* QuizData.swift in Sources */,
+				013511AC2188F21900805E2C /* QuizTableViewCell.swift in Sources */,
 				01CDD38C21854213001B5F81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
