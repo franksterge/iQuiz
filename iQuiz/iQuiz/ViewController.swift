@@ -26,6 +26,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        quizData.topicIndex = indexPath.row
+        performSegue(withIdentifier: "segueGoToQuestion", sender: self)
+    }
+    
     @IBAction func setingBtnPressed(_ sender: Any) {
         let uiAlert = UIAlertController(title: "Check back for settings!", message: nil, preferredStyle: .alert)
         uiAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
