@@ -1,4 +1,4 @@
-{
+[
     {
         "title": "math"
         "desc": "Think you know math? take this quiz to find out!"
@@ -12,7 +12,7 @@
                 "text":"How many combinations are there to rearrange the word \"begin\"" so that the phrase starts with a vowel?",
                 "answer": "3",
                 "answers": ["24", "36", "48", "60", "72"]
-            },
+            }
         ]
     },
     {
@@ -25,10 +25,10 @@
                 "answers":["Tony Stark", "Spider-Man", "Shazam", "Captain America", "Hawkeye"]
             },
             {
-                "text":"Perfectly balanced..."],
+                "text":"Perfectly balanced...",
                 "answer": "5",
                 "answers":  ["As everything should be.", "As all things shouldn't be.", "I'm confused.", "As nothing should be.", "As all things should be."]
-            },
+            }
         ]
     },
     {
@@ -41,9 +41,10 @@
                 "answers":["blue", "red", "yellow", "no color", "none of those"]
             },
             {
-                "text":"How much does the earth weigh?"],
+                "text":"How much does the earth weigh?",
                 "answer": "2",
                 "answers":   ["5 * 10^23 g", "6 * 10^24 kg", "7 * 10^25 lb", "8 * 10^26 ton", "9 * 10^27 oz"]
-            },
             }
-        }
+        ]
+    }
+]
