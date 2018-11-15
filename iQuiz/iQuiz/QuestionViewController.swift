@@ -19,17 +19,18 @@ class QuestionViewController: UIViewController {
     @IBOutlet weak var nextBtn: UIButton!
     var quizData = QuizData.shared
     var buttons: [UIButton] = []
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         buttons = [op1Btn, op2Btn, op3Btn, op4Btn, op5Btn]
+        
         loadQuestionScene()
-        let leftSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(swipe:)))
-        leftSwipe.direction = UISwipeGestureRecognizer.Direction.left
-        self.view.addGestureRecognizer(leftSwipe)
-        let rightSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(swipe:)))
-        rightSwipe.direction = UISwipeGestureRecognizer.Direction.right
-        self.view.addGestureRecognizer(rightSwipe)
+
+        let leftSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(swipe:)))//usable
+        leftSwipe.direction = UISwipeGestureRecognizer.Direction.left//usable
+        self.view.addGestureRecognizer(leftSwipe)//usable
+        let rightSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(swipe:)))//usable
+        rightSwipe.direction = UISwipeGestureRecognizer.Direction.right//usable
+        self.view.addGestureRecognizer(rightSwipe)//usable
         // Do any additional setup after loading the view.
     }
     
@@ -41,21 +42,16 @@ class QuestionViewController: UIViewController {
         goToNextScene(quizData)
     }
     
+    
+    
     public func loadQuestionScene() {
         nextBtn.isHidden = true
         let question = quizData.questions[quizData.topicIndex][quizData.questionIndex]
         quesLabel.text = question
-        let options: [String]
-        switch quizData.topicIndex {
-            case 0:
-            options = quizData.mathOptions[quizData.questionIndex]
-            case 1:
-            options = quizData.marvelOptions[quizData.questionIndex]
-            default:
-            options = quizData.scienceOptions[quizData.questionIndex]
-        }
+        let options = quizData.options[quizData.topicIndex][quizData.questionIndex]
         for i in 0...options.count - 1 {
             buttons[i].setTitle(options[i], for: .normal)
+            buttons[i].isHidden = false
         }
     }
     
@@ -67,6 +63,7 @@ class QuestionViewController: UIViewController {
             quizData.userAnswerIndex[quizData.questionIndex] = buttons.firstIndex(of: sender)!
         }
     }
+
     /*
     // MARK: - Navigation
 
@@ -83,7 +80,7 @@ extension UIViewController {
         if self.restorationIdentifier == "Answer" {
             quizData.questionIndex += 1
         }
-        if quizData.questionIndex < quizData.questions[quizData.questionIndex].count {
+        if quizData.questionIndex < quizData.questions[quizData.topicIndex].count {
             performSegue(withIdentifier: "nextSceneSegue", sender: self)
         } else {
             performSegue(withIdentifier: "segueToFinish", sender: self)

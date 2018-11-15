@@ -30,25 +30,25 @@ class AnswerViewController: UIViewController {
         self.question.text = question
         let userAnswer = quizData.userAnswerIndex[quizData.questionIndex]
         var message = ""
-        var correctAnswer:[Int] = []
-        let options: [String]
-        switch quizData.topicIndex {
-        case 0:
-            correctAnswer = quizData.mathCorrectIndex
-        case 1:
-            correctAnswer = quizData.marvelCorrectIndex
-        default:
-            correctAnswer = quizData.scienceCorrectIndex
-        }
+        var correctAnswer = quizData.answers[quizData.topicIndex]
+        let options = quizData.options[quizData.topicIndex][quizData.questionIndex]
+//        switch quizData.topicIndex {
+//        case 0:
+//            correctAnswer = quizData.mathCorrectIndex
+//        case 1:
+//            correctAnswer = quizData.marvelCorrectIndex
+//        default:
+//            correctAnswer = quizData.scienceCorrectIndex
+//        }
         
-        switch quizData.topicIndex {
-        case 0:
-            options = quizData.mathOptions[quizData.questionIndex]
-        case 1:
-            options = quizData.marvelOptions[quizData.questionIndex]
-        default:
-            options = quizData.scienceOptions[quizData.questionIndex]
-        }
+//        switch quizData.topicIndex {
+//        case 0:
+//            options = quizData.mathOptions[quizData.questionIndex]
+//        case 1:
+//            options = quizData.marvelOptions[quizData.questionIndex]
+//        default:
+//            options = quizData.scienceOptions[quizData.questionIndex]
+//        }
         if userAnswer == correctAnswer[quizData.questionIndex] {
             message = "You got it right!"
         } else {

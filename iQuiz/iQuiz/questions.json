@@ -1,0 +1,49 @@
+{
+    {
+        "title": "math"
+        "desc": "Think you know math? take this quiz to find out!"
+        "questions":[
+            {
+                "text":"From a group of 3 boys and 3 girls, 4 children are to be randomly selected. What is the probability that equal numbers of boys and girls will be selected?",
+                "answer": "4",
+                "answers":["1/10", "4/9", "1/2", "3/5", "2/3"]
+            },
+            {
+                "text":"How many combinations are there to rearrange the word \"begin\"" so that the phrase starts with a vowel?",
+                "answer": "3",
+                "answers": ["24", "36", "48", "60", "72"]
+            },
+        ]
+    },
+    {
+        "title": "marvel"
+        "desc": "Take this quiz to see how much you know about the Marvel universe."
+        "questions":[
+            {
+                "text":"Which of the following character is not from the Marvel Universe?",
+                "answer": "3",
+                "answers":["Tony Stark", "Spider-Man", "Shazam", "Captain America", "Hawkeye"]
+            },
+            {
+                "text":"Perfectly balanced..."],
+                "answer": "5",
+                "answers":  ["As everything should be.", "As all things shouldn't be.", "I'm confused.", "As nothing should be.", "As all things should be."]
+            },
+        ]
+    },
+    {
+        "title": "science"
+        "desc": "Are you the next Einstein?"
+        "questions":[
+            {
+                "text":"What's the color of water?",
+                "answer": "4",
+                "answers":["blue", "red", "yellow", "no color", "none of those"]
+            },
+            {
+                "text":"How much does the earth weigh?"],
+                "answer": "2",
+                "answers":   ["5 * 10^23 g", "6 * 10^24 kg", "7 * 10^25 lb", "8 * 10^26 ton", "9 * 10^27 oz"]
+            },
+            }
+        }

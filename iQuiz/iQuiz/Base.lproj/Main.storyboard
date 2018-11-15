@@ -54,7 +54,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8X-4r-EKY">
-                                                    <rect key="frame" x="182" y="39" width="470" height="20.5"/>
+                                                    <rect key="frame" x="182" y="39" width="178" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.89660596849999996" green="0.83028864859999996" blue="0.65879482030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
@@ -122,10 +122,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="YSb-rZ-OJo">
-                                <rect key="frame" x="157.5" y="369" width="60" height="166"/>
+                                <rect key="frame" x="187.5" y="535" width="0.0" height="0.0"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZrO-kq-n7b">
-                                        <rect key="frame" x="0.0" y="0.0" width="60" height="30"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZrO-kq-n7b">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="0.0"/>
                                         <state key="normal" title="Option 1">
                                             <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -133,8 +133,8 @@
                                             <action selector="optBtnPressed:" destination="CL9-KZ-Zeo" eventType="touchUpInside" id="WXU-ed-8R5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12F-I5-Ri3">
-                                        <rect key="frame" x="0.0" y="34" width="60" height="30"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12F-I5-Ri3">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="0.0"/>
                                         <state key="normal" title="Option 2">
                                             <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -142,8 +142,8 @@
                                             <action selector="optBtnPressed:" destination="CL9-KZ-Zeo" eventType="touchUpInside" id="xAq-s4-gvv"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPA-Yz-qNY">
-                                        <rect key="frame" x="0.0" y="68" width="60" height="30"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPA-Yz-qNY">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="0.0"/>
                                         <state key="normal" title="Option 3">
                                             <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -151,8 +151,8 @@
                                             <action selector="optBtnPressed:" destination="CL9-KZ-Zeo" eventType="touchUpInside" id="5CA-s7-5B0"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bym-4J-sl5">
-                                        <rect key="frame" x="0.0" y="102" width="60" height="30"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bym-4J-sl5">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="0.0"/>
                                         <state key="normal" title="Option 4">
                                             <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -160,8 +160,8 @@
                                             <action selector="optBtnPressed:" destination="CL9-KZ-Zeo" eventType="touchUpInside" id="gFw-qN-ug1"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2M4-JF-Fwm">
-                                        <rect key="frame" x="0.0" y="136" width="60" height="30"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2M4-JF-Fwm">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="0.0"/>
                                         <state key="normal" title="Option 5">
                                             <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -355,6 +355,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="e9A-im-4E3"/>
         <segue reference="oCa-fR-ks3"/>
-        <segue reference="pYH-F4-LrF"/>
+        <segue reference="eWb-1f-CeF"/>
     </inferredMetricsTieBreakers>
 </document>

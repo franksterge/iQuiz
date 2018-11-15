@@ -24,16 +24,8 @@ class FinishedViewController: UIViewController {
     public func presentMessage() {
         let userAnswer = quizData.userAnswerIndex
         var message = ""
-        var correctAnswer:[Int] = []
+        var correctAnswer = quizData.answers[quizData.topicIndex]
         var correctCount = 0
-        switch quizData.topicIndex {
-        case 0:
-            correctAnswer = quizData.mathCorrectIndex
-        case 1:
-            correctAnswer = quizData.marvelCorrectIndex
-        default:
-            correctAnswer = quizData.scienceCorrectIndex
-        }
         for i in 0...userAnswer.count - 1 {
             if correctAnswer[i] == userAnswer[i]! {
                 correctCount += 1

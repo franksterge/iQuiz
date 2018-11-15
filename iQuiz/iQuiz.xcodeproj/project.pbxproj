@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011265CE219DB17B00E00F70 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 011265CD219DB17B00E00F70 /* questions.json */; };
 		013511A62187C9C900805E2C /* marvel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013511A32187C9C800805E2C /* marvel.jpg */; };
 		013511A72187C9C900805E2C /* science.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013511A42187C9C800805E2C /* science.jpg */; };
 		013511A82187C9C900805E2C /* math.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013511A52187C9C800805E2C /* math.jpg */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011265CD219DB17B00E00F70 /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		013511A32187C9C800805E2C /* marvel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marvel.jpg; sourceTree = "<group>"; };
 		013511A42187C9C800805E2C /* science.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = science.jpg; sourceTree = "<group>"; };
 		013511A52187C9C800805E2C /* math.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = math.jpg; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		01CDD38A21854213001B5F81 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				011265CD219DB17B00E00F70 /* questions.json */,
 				01CDD38B21854213001B5F81 /* AppDelegate.swift */,
 				01CDD38D21854213001B5F81 /* ViewController.swift */,
 				013511A921884DC200805E2C /* QuizData.swift */,
@@ -311,6 +314,7 @@
 				01CDD39621854214001B5F81 /* LaunchScreen.storyboard in Resources */,
 				01CDD39321854214001B5F81 /* Assets.xcassets in Resources */,
 				01CDD39121854213001B5F81 /* Main.storyboard in Resources */,
+				011265CE219DB17B00E00F70 /* questions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
